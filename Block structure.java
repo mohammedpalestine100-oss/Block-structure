@@ -3,10 +3,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Date;
 
-/*
- * Block class representing a single block in the blockchain
- * Contains all necessary components: hash, previousHash, timestamp, data, nonce, difficulty
- */
+
 class Block {
     private String hash;
     private String previousHash;
@@ -324,3 +321,4 @@ class Blockchain {
         System.out.println("==========================================\n");
     }
 }
+
